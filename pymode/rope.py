@@ -575,7 +575,7 @@ class ExtractMethodRefactoring(Refactoring):
             ctx.project, ctx.resource, offset1, offset2)
 
     @staticmethod
-    def get_changes(refactor, input_str):
+    def get_changes(refactor, input_str, in_hierachry=False):
         """ Get changes.
 
         :return Changes:
